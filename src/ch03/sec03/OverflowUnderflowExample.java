@@ -11,8 +11,8 @@ public class OverflowUnderflowExample {
         System.out.println("-----------------------");
 
         byte var2 = -125;
-        for(int i=0; i<5; i++) {
-            var2--;
+        for(int i=0; i<5; i++) { //{ }를 5번 반족 실행
+            var2--; //--연산은 var2의 값을 1 감소시킨다.
             System.out.println("var2=" + var2);
         }
     }
