@@ -5,7 +5,7 @@ public class BitShiftExample1 {
         int num1 = 1;
         int result1 = num1 << 3; //a x 2^b
         int result2 = num1 * (int) Math.pow(2, 3); //2의 3제곱 계산해서, double로 돌려주는 메소드
-        System.out.println("result: " + result1);
+        System.out.println("result1: " + result1);
         System.out.println("result2: " + result2);
 
         int num2 = -8;

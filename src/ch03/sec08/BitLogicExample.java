@@ -5,7 +5,6 @@ public class BitLogicExample {
         System.out.println("45 & 25 = " + (45 & 25));
         System.out.println("45 | 25 = " + (45 | 25));
         System.out.println("45 ^ 25 = " + (45 ^ 25));
-        System.out.println("45 ^ 25 = " + (45 ^ 25));
         System.out.println("~45 = " + (~45));
         System.out.println("----------------------------------");
 
